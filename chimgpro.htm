@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>ChImgPro</title>
+</head>
+<body>
+<canvas id='can' WIDTH=800 HEIGHT=600></canvas>
+<select id='filterID' value=0 onchange='changeFilter()' style='width:100px;height:30px;position:fixed;right:100px;top:100px;'>
+    <option value=-1>None</option>
+    <option value=0>GrayScale</option>
+    <option value=1>FilterExcept</option>
+    <option value=2>FilterBesides</option>
+    <option value=3>Stablize</option>
+</select>
+<script type='text/javascript' src='do.js'></script>
+</body>
+</html>
